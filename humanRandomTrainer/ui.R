@@ -1,4 +1,5 @@
 # Define UI for application that draws a histogram
+require(markdown)
 shinyUI(fluidPage(
   
   # Application title
@@ -23,7 +24,7 @@ shinyUI(fluidPage(
   ),
   fluidRow(
     column(12,
-           includeMarkdown("readme.md")
+           includeMarkdown("readme.txt")
     )
   )
 ))
